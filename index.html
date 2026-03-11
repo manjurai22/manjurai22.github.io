@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Manju Rai — Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+
+  <!-- ══════════ NAV ══════════ -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-logo">MR<span class="dot">.</span></div>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#hero">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#certificates">Certificates</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger"><i class="fas fa-bars"></i></button>
+  </nav>
+
+  <!-- ══════════ HERO ══════════ -->
+  <section class="hero" id="hero">
+    <div class="hero-bg-blobs">
+      <div class="blob blob1"></div>
+      <div class="blob blob2"></div>
+      <div class="blob blob3"></div>
+    </div>
+
+    <div class="hero-card">
+      <div class="profile-pic-wrap">
+        <div class="profile-ring"></div>
+        <img
+          src="profile.jpg"
+          alt="Manju Rai"
+          class="profile-pic"
+          onerror="this.src='https://ui-avatars.com/api/?name=Manju+Rai&background=db2777&color=fff&size=220&bold=true'"
+        />
+        <span class="status-badge"><i class="fas fa-circle"></i> Open to Internship</span>
+      </div>
+
+      <div class="hero-info">
+        <p class="hero-greeting">Hello, I'm</p>
+        <h1 class="hero-name">Manju Rai</h1>
+        <p class="hero-title">
+          Computer Engineering Undergraduate &nbsp;·&nbsp; Aspiring Software Engineer &nbsp;·&nbsp; Django Enthusiast
+        </p>
+
+        <div class="contact-chips">
+          <a href="mailto:manjurai611@gmail.com" class="chip"><i class="fas fa-envelope"></i> manjurai611@gmail.com</a>
+          <a href="tel:+9779768771236" class="chip"><i class="fas fa-phone"></i> +977 9768771236</a>
+          <span class="chip"><i class="fas fa-map-marker-alt"></i> Swayambhu, Kathmandu</span>
+          <a href="https://www.linkedin.com/in/manju-rai-264081365" target="_blank" class="chip"><i class="fab fa-linkedin"></i> LinkedIn</a>
+          <a href="https://github.com/manjurai22" target="_blank" class="chip"><i class="fab fa-github"></i> GitHub</a>
+        </div>
+
+        <div class="hero-cta">
+          <a href="#projects" class="btn-primary">View Projects</a>
+          <a href="#contact" class="btn-outline">Hire Me</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="scroll-hint"><i class="fas fa-chevron-down"></i></div>
+  </section>
+
+  <!-- ══════════ ABOUT ══════════ -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="section-label">01 / About</div>
+      <h2 class="section-title">About Me</h2>
+
+      <div class="about-grid">
+        <div class="about-text">
+          <p>
+            I'm <strong>Manju Rai</strong>, a Computer Engineering undergraduate at
+            <strong>Kantipur Engineering College, Tribhuvan University</strong>, based in
+            <strong>Kathmandu</strong>. I'm passionate about building meaningful software —
+            with a particular love for backend development using <strong>Django and Python</strong>.
+          </p>
+          <p>
+            I've worked on projects ranging from CNN-based AI systems to full-stack web applications,
+            always striving to write clean, purposeful code. My curiosity drives me to explore
+            machine learning, computer vision, and scalable web architecture.
+          </p>
+          <p>
+            Currently seeking an <strong>internship or entry-level Django / software engineering role</strong>
+            where I can contribute, grow, and learn from real-world challenges alongside experienced developers.
+          </p>
+
+          <div class="edu-timeline">
+            <div class="edu-item">
+              <div class="edu-icon"><i class="fas fa-university"></i></div>
+              <div>
+                <h4>Bachelor in Computer Engineering</h4>
+                <p>Kantipur Engineering College · Tribhuvan University</p>
+                <span>2022 – Present</span>
+              </div>
+            </div>
+            <div class="edu-item">
+              <div class="edu-icon"><i class="fas fa-school"></i></div>
+              <div>
+                <h4>Higher Secondary Education — Science Stream</h4>
+                <p>Everest Innovation S.S</p>
+                <span>2018 – 2020 &nbsp;·&nbsp;</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════ SKILLS ══════════ -->
+  <section class="section section-alt" id="skills">
+    <div class="container">
+      <div class="section-label">02 / Skills</div>
+      <h2 class="section-title">Skills &amp; Technologies</h2>
+      <p class="section-sub">What I build with</p>
+
+      <div class="skills-category-wrap">
+
+        <div class="skills-category">
+          <h3 class="cat-title"><i class="fas fa-code"></i> Programming Languages</h3>
+          <div class="skills-cloud">
+            <div class="skill-bubble">
+              <i class="devicon-python-plain colored"></i><span>Python</span>
+            </div>
+            <div class="skill-bubble">
+              <i class="devicon-c-plain colored"></i><span>C</span>
+            </div>
+            <div class="skill-bubble">
+              <i class="devicon-cplusplus-plain colored"></i><span>C++</span>
+            </div>
+            <div class="skill-bubble">
+              <i class="devicon-mysql-plain colored"></i><span>SQL</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="skills-category">
+          <h3 class="cat-title"><i class="fas fa-globe"></i> Web Development</h3>
+          <div class="skills-cloud">
+            <div class="skill-bubble">
+              <i class="devicon-django-plain colored"></i><span>Django</span>
+            </div>
+            <div class="skill-bubble">
+              <i class="devicon-html5-plain colored"></i><span>HTML5</span>
+            </div>
+            <div class="skill-bubble">
+              <i class="devicon-css3-plain colored"></i><span>CSS3</span>
+            </div>
+            <div class="skill-bubble">
+              <i class="devicon-javascript-plain colored"></i><span>JavaScript</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="skills-category">
+          <h3 class="cat-title"><i class="fas fa-brain"></i> AI / Machine Learning</h3>
+          <div class="skills-cloud">
+            <div class="skill-bubble">
+              <i class="devicon-tensorflow-original colored"></i><span>TensorFlow</span>
+            </div>
+            <div class="skill-bubble">
+              <i class="devicon-numpy-original colored"></i><span>NumPy</span>
+            </div>
+            <div class="skill-bubble">
+              <i class="devicon-pandas-original colored"></i><span>Pandas</span>
+            </div>
+            <div class="skill-bubble">
+              <i class="fas fa-eye" style="color:#a855f7;font-size:2.2rem"></i><span>CNN / LSTM</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="skills-category">
+          <h3 class="cat-title"><i class="fas fa-tools"></i> Tools &amp; Platforms</h3>
+          <div class="skills-cloud">
+            <div class="skill-bubble">
+              <i class="devicon-git-plain colored"></i><span>Git</span>
+            </div>
+            <div class="skill-bubble">
+              <i class="devicon-github-original colored"></i><span>GitHub</span>
+            </div>
+            <div class="skill-bubble">
+              <i class="devicon-vscode-plain colored"></i><span>VS Code</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════ PROJECTS ══════════ -->
+  <section class="section" id="projects">
+    <div class="container">
+      <div class="section-label">03 / Projects</div>
+      <h2 class="section-title">My Projects</h2>
+      <p class="section-sub">Click a card to read the full details</p>
+
+      <div class="projects-grid">
+
+        <!-- Violens -->
+        <div class="project-card" onclick="openModal('modal1')">
+          <div class="project-placeholder" style="background:linear-gradient(135deg,#e879f9,#7c3aed);">
+            <i class="fas fa-video"></i>
+            <span class="ongoing-tag">Ongoing</span>
+          </div>
+          <div class="project-body">
+            <div class="project-tags">
+              <span class="tag">Python</span><span class="tag">CNN</span><span class="tag">LSTM</span><span class="tag">Computer Vision</span>
+            </div>
+            <h3 class="project-name">Violens — Violence Detection</h3>
+            <p class="project-desc">Real-time violence detection from CCTV footage using CNN + LSTM deep learning.</p>
+            <div class="project-actions">
+              <button class="btn-detail" onclick="event.stopPropagation();openModal('modal1')">Details</button>
+              <a href="https://github.com/manjurai22" target="_blank" class="btn-code" onclick="event.stopPropagation()"><i class="fab fa-github"></i> Code</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Virtual Wardrobe -->
+        <div class="project-card" onclick="openModal('modal2')">
+          <div class="project-placeholder" style="background:linear-gradient(135deg,#f472b6,#db2777);">
+            <i class="fas fa-tshirt"></i>
+          </div>
+          <div class="project-body">
+            <div class="project-tags">
+              <span class="tag">Python</span><span class="tag">CNN</span><span class="tag">ML</span><span class="tag">Recommendation</span>
+            </div>
+            <h3 class="project-name">Virtual Wardrobe</h3>
+            <p class="project-desc">AI-powered outfit recommendation system — digitize your wardrobe, get smart outfit combos.</p>
+            <div class="project-actions">
+              <button class="btn-detail" onclick="event.stopPropagation();openModal('modal2')">Details</button>
+              <a href="https://github.com/manjurai22" target="_blank" class="btn-code" onclick="event.stopPropagation()"><i class="fab fa-github"></i> Code</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Contact Manager -->
+        <div class="project-card" onclick="openModal('modal3')">
+          <div class="project-placeholder" style="background:linear-gradient(135deg,#c084fc,#9333ea);">
+            <i class="fas fa-address-book"></i>
+          </div>
+          <div class="project-body">
+            <div class="project-tags">
+              <span class="tag">Django</span><span class="tag">Python</span><span class="tag">HTML/CSS</span><span class="tag">SQLite</span>
+            </div>
+            <h3 class="project-name">Contact Manager (Django)</h3>
+            <p class="project-desc">Full-stack Django web app to manage contacts with full CRUD and a responsive UI.</p>
+            <div class="project-actions">
+              <button class="btn-detail" onclick="event.stopPropagation();openModal('modal3')">Details</button>
+              <a href="https://github.com/manjurai22" target="_blank" class="btn-code" onclick="event.stopPropagation()"><i class="fab fa-github"></i> Code</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Modals ── -->
+  <div class="modal-overlay" id="modal1" onclick="closeModal('modal1')">
+    <div class="modal-box" onclick="event.stopPropagation()">
+      <button class="modal-close" onclick="closeModal('modal1')"><i class="fas fa-times"></i></button>
+      <div class="modal-header" style="background:linear-gradient(135deg,#e879f9,#7c3aed)"><i class="fas fa-video"></i></div>
+      <div class="modal-body">
+        <div class="modal-status ongoing">🔄 Ongoing Project</div>
+        <h3>Violens — Violence Detection from CCTV Footage</h3>
+        <div class="modal-tags">
+          <span class="tag">Python</span><span class="tag">CNN</span><span class="tag">LSTM</span><span class="tag">Computer Vision</span><span class="tag">Deep Learning</span>
+        </div>
+        <p>A real-time violence detection system designed to monitor CCTV footage and automatically flag violent activities, using a hybrid deep learning approach that captures both spatial and temporal patterns.</p>
+        <h4>Technical Highlights</h4>
+        <ul>
+          <li>CNN for spatial feature extraction from individual video frames</li>
+          <li>LSTM for temporal sequence analysis across frame windows</li>
+          <li>Processes short video clips to classify violent vs. non-violent activity</li>
+          <li>Designed to interface with live CCTV stream input</li>
+        </ul>
+        <a href="https://github.com/manjurai22" target="_blank" class="btn-primary"><i class="fab fa-github"></i> View on GitHub</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal-overlay" id="modal2" onclick="closeModal('modal2')">
+    <div class="modal-box" onclick="event.stopPropagation()">
+      <button class="modal-close" onclick="closeModal('modal2')"><i class="fas fa-times"></i></button>
+      <div class="modal-header" style="background:linear-gradient(135deg,#f472b6,#db2777)"><i class="fas fa-tshirt"></i></div>
+      <div class="modal-body">
+        <div class="modal-status done">✅ Minor Project — Completed</div>
+        <h3>Virtual Wardrobe — Outfit Recommendation System</h3>
+        <div class="modal-tags">
+          <span class="tag">Python</span><span class="tag">CNN</span><span class="tag">Machine Learning</span><span class="tag">Recommendation System</span>
+        </div>
+        <p>A smart wardrobe management platform that digitizes a user's clothing collection and suggests personalized outfit combinations using AI — a personal stylist powered by deep learning.</p>
+        <h4>Technical Highlights</h4>
+        <ul>
+          <li>CNN-based clothing item classification into categories</li>
+          <li>Digitizes and organizes users' wardrobe automatically</li>
+          <li>Recommendation engine suggests outfit combos based on user preferences</li>
+          <li>Personalized suggestions improve from interaction history</li>
+        </ul>
+        <a href="https://github.com/manjurai22" target="_blank" class="btn-primary"><i class="fab fa-github"></i> View on GitHub</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal-overlay" id="modal3" onclick="closeModal('modal3')">
+    <div class="modal-box" onclick="event.stopPropagation()">
+      <button class="modal-close" onclick="closeModal('modal3')"><i class="fas fa-times"></i></button>
+      <div class="modal-header" style="background:linear-gradient(135deg,#c084fc,#9333ea)"><i class="fas fa-address-book"></i></div>
+      <div class="modal-body">
+        <div class="modal-status done">✅ Completed</div>
+        <h3>Contact Manager — Django Web Application</h3>
+        <div class="modal-tags">
+          <span class="tag">Django</span><span class="tag">Python</span><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">SQLite</span>
+        </div>
+        <p>A full-stack web application built with Django that allows users to create, view, update, and delete contacts — demonstrating solid understanding of Django's MVT architecture, ORM, and form handling.</p>
+        <h4>Technical Highlights</h4>
+        <ul>
+          <li>Full CRUD operations (Create, Read, Update, Delete)</li>
+          <li>Django ORM for database management with SQLite</li>
+          <li>Clean, responsive UI built with HTML &amp; CSS</li>
+          <li>Django form validation and error handling</li>
+        </ul>
+        <a href="https://github.com/manjurai22" target="_blank" class="btn-primary"><i class="fab fa-github"></i> View on GitHub</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- ══════════ CERTIFICATES ══════════ -->
+  <section class="section section-alt" id="certificates">
+    <div class="container">
+      <div class="section-label">04 / Certificates</div>
+      <h2 class="section-title">Certificates &amp; Training</h2>
+      <p class="section-sub">Verified learning and training milestones</p>
+
+      <div class="certs-grid">
+
+        <div class="cert-card">
+          <div class="cert-icon" style="background:#fdf4ff;color:#9333ea;">
+            <i class="devicon-python-plain colored" style="font-size:1.9rem"></i>
+          </div>
+          <div class="cert-info">
+            <h4>Python with Data Science</h4>
+            <p class="cert-issuer"><i class="fas fa-building"></i> TechAxis</p>
+            <p class="cert-date"><i class="fas fa-calendar-alt"></i> 2024</p>
+          </div>
+          <div class="cert-badge"><i class="fas fa-check-circle"></i> Completed</div>
+        </div>
+
+        <div class="cert-card">
+          <div class="cert-icon" style="background:#fff0f9;color:#9333ea;">
+            <i class="devicon-django-plain colored" style="font-size:1.9rem"></i>
+          </div>
+          <div class="cert-info">
+            <h4>Python and Django Full Stack</h4>
+            <p class="cert-issuer"><i class="fas fa-building"></i> Broadway Infosys</p>
+            <p class="cert-date"><i class="fas fa-calendar-alt"></i> 2026</p>
+          </div>
+          <div class="cert-badge"><i class="fas fa-check-circle"></i> Completed</div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════ CONTACT ══════════ -->
+  <section class="section" id="contact">
+    <div class="container">
+      <div class="section-label">05 / Contact</div>
+      <h2 class="section-title">Get In Touch</h2>
+      <p class="section-sub">Looking for an internship or a chance to collaborate — let's connect!</p>
+
+      <div class="contact-grid">
+        <div class="contact-info">
+          <div class="contact-item">
+            <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+            <div>
+              <p class="contact-label">Email</p>
+              <a href="mailto:manjurai611@gmail.com">manjurai611@gmail.com</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon"><i class="fas fa-phone"></i></div>
+            <div>
+              <p class="contact-label">Phone</p>
+              <a href="tel:+9779768771236">+977 9768771236</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+            <div>
+              <p class="contact-label">Location</p>
+              <span>Kathmandu, Nepal</span>
+            </div>
+          </div>
+          <div class="social-row">
+            <a href="https://github.com/manjurai22" target="_blank" class="social-btn" title="GitHub"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/manju-rai-264081365" target="_blank" class="social-btn" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+            <a href="mailto:manjurai611@gmail.com" class="social-btn" title="Email"><i class="fas fa-envelope"></i></a>
+          </div>
+        </div>
+
+        <form class="contact-form" id="contactForm">
+          <div class="form-group">
+            <label>Your Name</label>
+            <input type="text" placeholder="e.g. Sita Sharma" required />
+          </div>
+          <div class="form-group">
+            <label>Email Address</label>
+            <input type="email" placeholder="sita@example.com" required />
+          </div>
+          <div class="form-group">
+            <label>Message</label>
+            <textarea rows="5" placeholder="Tell me about the opportunity or project..." required></textarea>
+          </div>
+          <button type="submit" class="btn-primary">Send Message &nbsp;<i class="fas fa-paper-plane"></i></button>
+          <p class="form-note" id="formNote"></p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════ FOOTER ══════════ -->
+  <footer class="footer">
+    <p class="footer-copy">© 2025 Manju Rai &nbsp;·&nbsp; manjurai.com.np</p>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
